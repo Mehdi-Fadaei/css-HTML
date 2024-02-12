@@ -1,0 +1,8 @@
+span ~ i {
+    background-color: red;
+}
+
+i ~ b {
+    color: wheat;
+    background-color: black;
+}

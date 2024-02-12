@@ -1,0 +1,26 @@
+
+body {
+    color: red;
+    border: solid 2px red;
+
+}
+
+h1 {
+    color: blue;
+    border: inherit;
+
+}
+p {
+    border:inherit;
+}
+
+span {
+    color: gray;
+    border: inherit;
+}
+
+b {
+    border: inherit;
+    color: red;
+}
+

@@ -1,0 +1,21 @@
+
+
+html {
+background-color: blue;
+color: white;
+}
+
+h1 {
+font-size:70px;
+text-decoration: underline;
+}
+
+span {
+color: white;
+font-weight: bold;
+}
+
+p {
+color: purple;
+}
+
