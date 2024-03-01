@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Spectral";
+    src:    url(spectral-regular.ttf) format ("truetype"), 
+            url(spectral-regular.woff2) format(".woff2");
+    font-style: normal;
+    font-weight: bold;
+    
+}

@@ -1,0 +1,9 @@
+div {
+    background-color: grey;
+    width: 300px;
+    height: 300px;
+    
+    padding: 100px 50px 75px 25px;
+    margin: 100px 50px 75px 25px;
+}
+

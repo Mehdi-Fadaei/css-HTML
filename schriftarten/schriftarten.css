@@ -1,0 +1,24 @@
+body {
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+#test1 {
+    font-family: serif;
+}
+#test2 {
+    font-family: sans-serif;
+}
+#test3 {
+    font-family: cursive;
+}
+#test4 {
+    font-family: fantasy;
+}
+#test5 {
+    font-family: monospace;
+}
+
+#externeschriftart {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shizuru', cursive;
+}
