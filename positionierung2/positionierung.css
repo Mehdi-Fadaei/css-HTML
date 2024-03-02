@@ -1,0 +1,29 @@
+body {
+    height: 10000px;
+
+}
+
+#fixedDIV {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+}
+
+#stickyDIV {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: sticky;
+    top: 20px;
+    margin-top: 350px;
+}
+
+span {
+    position: static;
+    top: 20;
+    margin-top: 150px;
+}
