@@ -1,0 +1,13 @@
+span, u, strong {
+    width: 300px;
+    height: 300px;
+}
+
+div {
+    width: 300px;
+    height: 300px;
+}
+
+p, div, h1 {
+    background-color: #00F ;
+}
