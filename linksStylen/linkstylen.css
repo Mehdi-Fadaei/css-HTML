@@ -1,0 +1,23 @@
+/* LoVe Fears HAte  oder LoVe HAte*/
+
+a:link {
+    color: #000;
+}
+
+a:visited {
+    color: grey;
+}
+
+/* a:focus {
+
+} */
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color:red;
+
+}
+
