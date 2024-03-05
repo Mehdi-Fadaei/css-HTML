@@ -1,0 +1,48 @@
+div {
+    width: 600px;
+    height: 600px;
+    border: 2px solid grey;
+    margin-bottom: 20px;
+
+
+}
+
+#test01 {
+    background-color: #ff5ea2;
+}
+
+#test02 {
+    background-image: url(./hintergrund.png);
+}
+
+#test03 {
+    background-image: url(./hintergrund.png);
+    background-repeat: no-repeat;
+}
+
+#test04 {
+    background-image: url(./hintergrund.png);
+    background-repeat: repeat-x;
+}
+
+#test05 {
+    background-image: url(./hintergrund.png);
+    background-repeat: repeat-y;
+}
+
+#test06 {
+    background-image: url(./hintergrund.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+#test07 {
+    background-image: url(./hintergrund.png);
+    background-attachment:fixed ;
+}
+
+#test10 {
+    /* background: color image repeat attachment position */
+    background: #ee45f3 url(./hintergrund.png) repeat-y fixed left 20px top 30px;
+
+}

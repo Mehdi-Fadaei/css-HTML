@@ -1,0 +1,18 @@
+#test {
+    height: 400px;
+    width: 400px;
+    background-color: gray;
+
+}
+
+#test::before {
+    content: "ich bin das Pseudoelement befor ! ";
+    display: block;
+    background-color: red;
+}
+
+#test::after {
+    content: "Ich bin dass pseudoelement After !!";
+    display: block;
+}
+
