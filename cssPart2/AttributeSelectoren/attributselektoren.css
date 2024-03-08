@@ -1,0 +1,46 @@
+/* ein Element mit einem bestimmten attribut */
+
+[href] {
+    background-color: grey;
+}
+
+/*attribut name und werte wird genutz*/
+[id="dasIstEinAnker"] {
+    display: block;
+}
+
+/*bestimmte attributen werden in dennen wert liste nach name gesucht*/
+[class~="einBild"] {
+    height: 100px;
+}
+
+/*wir in eien attrubute nach bestimte wert gesucht die erst bestimt so geschriben wurde oder mit 
+**wert beginen und mit  - bei andere wert verbunden ist*/
+[class|="test"] {
+    width: 300px;
+}
+
+/*eine element mit bestimmte attribute die mit bestimmte wert begin*/
+
+[title^="Ich bin"] {
+    border: 10px solid red;
+}
+
+/*Eine element mit bestimmte attribute die mit bestimmte wert endet*/
+
+[title$="Anker-Element"] {
+    color: white;
+}
+
+/*Elemente mit Besttimte Attribut dass bestimte wert egal wo besitz */
+
+[id*="IstEin"] {
+    text-decoration: none;
+}
+
+/* i can man nach alle selectoren setzen  und wird klein und gruss beschreibung ignoriert */
+
+[id*="anker" i] {
+    font-weight: bold;
+}
+
