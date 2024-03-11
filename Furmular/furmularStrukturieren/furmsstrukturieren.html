@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="de">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Furms Strukturieren</title>
+        
+    </head>
+
+    <body>
+
+        <form action="./furmsstrukturieren.html" method="get">
+
+            <fieldset>
+            <legend>Personen-daten</legend>
+
+            <label for="name">Name:</label>
+            <input id="name" type="text" name="name" placeholder="Dein Name"><br><br>
+            
+            <fieldset>
+            <legend>Geschlecht:</legend>
+            <label for="mänlich">Mänlich</label>
+            <input type="radio" name="geschlecht" value="m">
+            <label for="weiblich">Weiblich</label>
+            <input id="weiblich" type="radio" name="geschlecht" value="w"><br><br>
+            </fieldset>
+            </fieldset>
+
+            <fieldset>
+            <legend>Login-daten</legend>
+
+            <label for="email">E-mail</label>
+            <input id="email" type="email" name="email" placeholder="Dein e-mail Adresse"><br><br>
+
+            <label for="passwort">Passwort</label>
+            <input id="passwort" type="password" name="passwort" placeholder="Dein passwort"><br><br>
+
+            </fieldset>
+            <br>
+            <label for="submit">Submit</label>
+            <button id="submit" type="submit">Abschicken!</button>
+
+
+        </form>
+        
+
+    </body>
+
+</html>
