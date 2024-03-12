@@ -1,0 +1,55 @@
+:root {
+    font-size: 55px;
+
+}
+
+:empty {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+}
+
+div:empty {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.container :first-child {
+
+    font-weight: bold;
+}
+
+.container :last-child {
+    text-decoration: underline;
+}
+
+.container :nth-child(5) {
+    color: red;
+}
+
+.container :nth-child(even) {
+    width: 60px;
+}
+
+.container :nth-child(3n+1) {
+    background-color: azure;
+}
+
+body :only-child {
+    border: 5px solid red;
+}
+
+.container :first-of-type {
+    color: yellow;
+}
+
+.container :last-of-type {
+    color: red;
+}
+
+
+
+
+

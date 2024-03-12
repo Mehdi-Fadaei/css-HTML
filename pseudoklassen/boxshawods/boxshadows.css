@@ -1,0 +1,29 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    margin-bottom: 2rem;
+
+}
+
+/* Box-Shadows: x-versatz y-versatz weichzeichnung Vergrösserung farbe inset*/
+
+#test01 {
+    box-shadow: 5px 5px red;
+}
+
+#test02 {
+    box-shadow: 5px 5px 20px red;
+}
+
+#test03 {
+    box-shadow: 0 0 0 10px red;
+}
+
+#test04 {
+    box-shadow: 5px 5px 20px green inset;
+}
+
+#test05 {
+    box-shadow: 5px 5px 30px red, 0 0 20px 10px green inset ;
+}

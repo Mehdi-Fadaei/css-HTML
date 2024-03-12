@@ -1,0 +1,13 @@
+div {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    margin-bottom: 10px;
+
+}
+
+#test {
+    border: 10px solid green;
+    outline: 10px solid blue;
+}
+
