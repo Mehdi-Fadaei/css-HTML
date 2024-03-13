@@ -1,0 +1,33 @@
+div {
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    margin-top: 2rem;
+}
+
+#test01 {
+
+    border-radius: 15px;
+
+}
+
+#test02 {
+    border-radius: 20%;
+}
+
+#test03 {
+    border-radius: 20px 40px;
+}
+
+#test04 {
+    border-radius: 20px 40px 60px;
+}
+
+#test05 {
+    border-radius: 40px 40px 40px 40px;
+}
+
+#kreis {
+    border-radius: 50%;
+}
+
