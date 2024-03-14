@@ -1,0 +1,10 @@
+#mein-div {
+    height: 500px;
+    width: 500px;
+    background-color: grey;
+}
+
+#mein-div:hover {
+    background-color: red;
+}
+
