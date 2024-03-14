@@ -1,0 +1,23 @@
+
+#test {
+    height: 200px;
+    width: 200px;
+    background-color: grey;
+    /*
+    transition-property: width, background-color;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: ease;
+    */
+    transition: width 2s ease-in-out 0.5s, height 2s ease-in-out 0.5s;
+
+
+}
+
+#test:hover {
+
+    height: 500px;
+    width: 500px;
+    background-color: red;
+}
+

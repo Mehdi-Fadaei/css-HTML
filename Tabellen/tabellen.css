@@ -1,0 +1,25 @@
+table {
+    margin-bottom: 2rem;
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-spacing: 10px;
+
+    caption-side: bottom;
+    background-color: blue;
+
+    empty-cells: hide;
+
+
+
+}
+
+table#test01, table#test01 td, table#test01 th {
+
+    border: 2px solid black;
+    border-collapse: separate;
+    border-spacing: 10px;
+
+    table-layout: auto;
+
+}
+

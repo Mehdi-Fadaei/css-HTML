@@ -1,0 +1,93 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+}
+
+@keyframes farbwechsel {
+    
+    /* from to is posible*/
+
+    0% {background-color: red;}
+    20% {background-color: antiquewhite;}
+    50% {background-color: blueviolet;}
+    100% {background-color: blue};
+}
+
+@keyframes komplexereAnimation {
+
+    
+    0% {
+
+        background-color: aqua; 
+        top: o; left: 0; 
+        width: 1oopx; 
+        height: 100px; 
+    }
+
+    25% {
+        background-color: red; 
+        top: 0; left: 0; 
+        width: 200px; 
+        height: 200px; 
+    }
+
+    50% {
+        background-color: orange;
+        top: 0; left: 400px; 
+        width: 100px; 
+        height: 100px;
+    }
+
+    75% {
+        background-color: yellow; 
+        top: 400px; 
+        left: 400px; 
+        width: 200px; 
+        height: 200px;
+    }
+
+    100% {
+        background-color: green; 
+        top: 400px; 
+        left: 0; 
+        width: 300px; 
+        height: 300px;
+    }
+}
+
+/*
+#test {
+    animation: farbwechsel;
+    animation-duration: 12s;
+}
+*/
+
+/*
+#test {
+
+    position: relative;
+    animation: komplexereAnimation ;
+    animation-duration: 16s;
+    
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    animation-direction: reverse;
+    animation-play-state: running;
+    
+
+    animation-timing-function: ease;
+    
+
+    animation-fill-mode: both;
+}
+*/
+
+#test {
+
+    /* animation : name duration timing-function delay iteration-count direction fill-mode play-state;*/
+
+    position: relative;
+    animation: komplexereAnimation 5s ease-in-out 2s infinite alternate-reverse both running;
+}
+
